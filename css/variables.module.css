@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "The Seasons";
+  src: url(../assets/fonts/TheSeasons/fontspring-demo-theseasons-reg-webfont.woff2);
+}
+@font-face {
+  font-family: "Poppins";
+  src: url(../assets/fonts/poppins/poppins-regular-webfont.woff2);
+}
+:root {
+  /* Colors */
+  --marine: #153b3c;
+  --wine: #562d33;
+  --black: #1f1f1f;
+  --terracotta: #925d56;
+  --sand: #c9a582;
+  --almond: #e6d7cb;
+  --white: #ffffff;
+  /*colors hover*/
+  /* Colors */
+  --75-marine: #20595b;
+  --75-wine: #783f48;
+  --75-black: #333333;
+  --75-terracotta: #ac7872;
+
+  --75-sand: #dac2a9;
+  --75-almond: #f8f4f1;
+  /* Fonts */
+  --headline-font: "The Seasons", serif;
+  --body-font: "Poppins", sans-serif;
+
+  /* Spacing */
+  --spacing-12: 12px;
+  --spacing-24: 24px;
+  --spacing-36: 36px;
+  --spacing-48: 48px;
+  /* Font size */
+  --font-h1: 56px;
+  --font-h2: 32px;
+  --font-h3: 28px;
+  --text-main: 16px;
+  --text-m: 14px;
+  --text-xs: 12px;
+  --text-button: 16px;
+  /*font height*/
+
+  --line-h-main: 24px;
+  --line-h-m: 22px;
+  --line-h-xs: 20px;
+  --border-radius: 32px;
+}

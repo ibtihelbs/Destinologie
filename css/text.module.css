@@ -1,0 +1,42 @@
+h1,
+h2,
+h3 {
+  font-family: var(--headline-font);
+  width: 100%;
+}
+h1 {
+  font-size: var(--font-h1);
+  line-height: calc(var(--font-h1)+12px);
+  max-width: 500px;
+}
+h2 {
+  font-size: var(--font-h2);
+  line-height: calc(var(--font-h2)+12px);
+}
+h3 {
+  font-size: var(--font-h3);
+  line-height: calc(var(--font-h3)+12px);
+}
+.center-text {
+  text-align: center;
+}
+p {
+  font-size: var(--text-main);
+  max-width: 500px;
+}
+.end-text {
+  text-align: end;
+}
+.underline {
+  text-decoration: underline;
+}
+blockquote {
+  font-size: 48px;
+  font-family: var(--headline-font);
+}
+h1 span {
+  font-style: italic;
+  font-family: inherit;
+  font-size: calc(var(--font-h1) * 1.5);
+  text-align: end;
+}

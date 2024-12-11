@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="nav-wrap">
+        <img src="./assets/images/logo/Black_D_Logo.png" alt="logo" />
+        <nav class="nav">
+          <a href="#home">Home</a>
+          <a href="#destinations">Destinations</a>
+          <a href="#hotels">Hotels</a>
+          <a href="#about">About Us</a>
+        </nav>
+      </div>
+    </header>
+    <main class="container container-32">
+      <section class="hero"></section>
+      <nav class="sub-nav">
+        <a href="#overview">Overview</a>
+        <a href="#hotels">Hotels</a>
+        <a href="#todo">Things To Do</a>
+        <a href="#offers">Offers</a>
+        <a href="#inclusive">All Inclusive</a>
+        <a href="#family">Family</a>
+        <a href="#honeymoon">Honeymoon</a>
+      </nav>
+      <div class="filters flex-row-1 center">
+        <!-- Departure Month -->
+        <select id="departure-month" name="departure-month">
+          <option value="" disabled selected>Departure Month</option>
+          <option value="january">January</option>
+          <option value="february">February</option>
+          <option value="march">March</option>
+          <option value="april">April</option>
+          <option value="may">May</option>
+          <option value="june">June</option>
+          <option value="july">July</option>
+          <option value="august">August</option>
+          <option value="september">September</option>
+          <option value="october">October</option>
+          <option value="november">November</option>
+          <option value="december">December</option>
+        </select>
+
+        <!-- Duration -->
+        <select id="duration" name="duration">
+          <option value="" disabled selected>Duration</option>
+          <option value="3-days">3 Days</option>
+          <option value="5-days">5 Days</option>
+          <option value="7-days">7 Days</option>
+          <option value="10-days">10 Days</option>
+          <option value="14-days">14 Days</option>
+        </select>
+
+        <!-- Budget -->
+        <select id="budget" name="budget">
+          <option value="" disabled selected>Budget</option>
+          <option value="low">Low</option>
+          <option value="medium">Medium</option>
+          <option value="high">High</option>
+        </select>
+
+        <!-- Departure Airport -->
+        <select id="departure-airport" name="departure-airport">
+          <option value="" disabled selected>Departure Airport</option>
+          <option value="lax">LAX - Los Angeles</option>
+          <option value="jfk">JFK - New York</option>
+          <option value="ord">ORD - Chicago</option>
+          <option value="atl">ATL - Atlanta</option>
+        </select>
+
+        <!-- Board Basis -->
+        <select id="board-basis" name="board-basis">
+          <option value="" disabled selected>Board Basis</option>
+          <option value="all-inclusive">All-Inclusive</option>
+          <option value="half-board">Half Board</option>
+          <option value="bed-and-breakfast">Bed & Breakfast</option>
+          <option value="room-only">Room Only</option>
+        </select>
+
+        <!-- Area -->
+        <select id="area" name="area">
+          <option value="" disabled selected>Area</option>
+          <option value="urban">Urban</option>
+          <option value="coastal">Coastal</option>
+          <option value="mountainous">Mountainous</option>
+          <option value="rural">Rural</option>
+        </select>
+
+        <!-- Last Minute -->
+        <select id="last-minute" name="last-minute">
+          <option value="" disabled selected>Last Minute</option>
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+        <select id="sort-by" name="sort-by">
+          <option value="" disabled selected>Sort by</option>
+
+          <option value="Recommended">Recommended</option>
+          <option value="Rating (High → Low)">Rating (High → Low)</option>
+          <option value="Rating (Low → High)">Rating (Low → High)</option>
+          <option value="Alphabetical (A → Z)">Alphabetical (A → Z)</option>
+          <option value="Alphabetical (Z → A)">Alphabetical (Z → A)</option>
+        </select>
+      </div>
+
+      <div class="showing end-text underline">Showing 18 of 72 Hotels</div>
+
+      <!-- Hotel Listing -->
+      <div class="grid-col-2">
+        <div class="hotel card-hotel grid-col-3">
+          <img
+            src="./assets/images/hotels/hotel1.jpeg"
+            alt="Niyama Private Islands"
+          />
+          <div class="hotel-content span-2 container container-12">
+            <h3 class="hotel-title">Niyama Private Islands</h3>
+            <p class="hotel-location">Indian Ocean | Maldives</p>
+            <p class="features">
+              <strong>Exclusive Benefits:</strong><br />
+              - Early check-in and late check-out<br />
+              - $150 food & spa credit<br />
+              - Complimentary outdoor cinema experience<br />
+            </p>
+            <div class="self-end">
+              <button>Enquire Now</button>
+              <button>View Hotel</button>
+            </div>
+          </div>
+        </div>
+        <!-- Hotel 2 -->
+        <div class="hotel card-hotel grid-col-3">
+          <img
+            src="./assets/images/hotels/hotel2.jpg"
+            alt="The Westin Maldives Miriandhoo Resort"
+          />
+          <div class="hotel-content span-2 container container-12">
+            <h3 class="hotel-title">The Westin Maldives Miriandhoo Resort</h3>
+            <p class="hotel-location">Indian Ocean | Maldives</p>
+            <p class="features">
+              - 5-star wellness resort<br />
+              - Overwater Japanese restaurant<br />
+              - Iconic Heavenly Spa<br />
+            </p>
+            <div class="self-end">
+              <button>Enquire Now</button>
+              <button>View Hotel</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hotel 3 -->
+        <div class="hotel card-hotel grid-col-3">
+          <img
+            src="./assets/images/destination/maldives.jpg"
+            alt="One&Only Reethi Rah"
+          />
+          <div class="hotel-content span-2 container container-12">
+            <h3 class="hotel-title">One&Only Reethi Rah</h3>
+            <p class="hotel-location">Indian Ocean | Maldives</p>
+            <p class="features">
+              - PADI diving & snorkelling centre<br />
+              - Private outdoor relaxation spaces<br />
+              - Luxury villa accommodations<br />
+            </p>
+            <div class="self-end">
+              <button>Enquire Now</button>
+              <button>View Hotel</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hotel 4 -->
+        <div class="hotel card-hotel grid-col-3">
+          <img
+            src="./assets/images/hotels/plaza.jpeg"
+            alt="The Ritz-Carlton Maldives"
+          />
+          <div class="hotel-content span-2 container container-12">
+            <h3 class="hotel-title">The Ritz-Carlton Maldives, Fari Islands</h3>
+            <p class="hotel-location">Indian Ocean | Maldives</p>
+            <p class="features">
+              - 9 treatment rooms for spa therapy<br />
+              - Butler service for every villa<br />
+              - Environmental & cultural programs<br />
+            </p>
+            <div class="self-end">
+              <button>Enquire Now</button>
+              <button>View Hotel</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hotel 5 -->
+        <div class="hotel card-hotel grid-col-3">
+          <img
+            src="./assets/images/hotels/hotel3.jpg"
+            alt="Atmosphere Kanifushi"
+          />
+          <div class="hotel-content span-2 container container-12">
+            <h3 class="hotel-title">Atmosphere Kanifushi</h3>
+            <p class="hotel-location">Indian Ocean | Maldives</p>
+            <p class="features">
+              - All-inclusive indulgence<br />
+              - Water and sunset beach villas<br />
+              - Maldives' first vegetarian restaurant<br />
+            </p>
+            <div class="self-end">
+              <button>Enquire Now</button>
+              <button>View Hotel</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="container">
+      <div class="upper-footer grid-col-4">
+        <div class="container">
+          <h1>Destinology</h1>
+          <ul class="container container-8">
+            <li>01204 208495</li>
+            <li>helpdesk@destinology.co.uk</li>
+            <li>09:00 -19:00</li>
+          </ul>
+        </div>
+        <div class="container">
+          <h3>Destinations</h3>
+
+          <ul class="container container-8">
+            <li>Indian Ocean</li>
+            <li>Middle East</li>
+            <li>Europe</li>
+            <li>Caribbean & Mexico</li>
+            <li>Far East</li>
+            <li>North America</li>
+            <li>Arica</li>
+            <li>Australasia</li>
+            <li>Cruise</li>
+          </ul>
+        </div>
+        <div class="container">
+          <h3>Useful Links</h3>
+          <ul class="container container-8">
+            <li>Contact Us</li>
+            <li>About Us</li>
+            <li>Meet Our Concierge</li>
+            <li>Careers</li>
+            <li>Travel Insurance</li>
+            <li>Holiday Extras</li>
+            <li>FAQs</li>
+          </ul>
+        </div>
+        <div class="container">
+          <h3>Legal</h3>
+          <ul class="container container-8">
+            <li>Booking Terms & Conditions</li>
+            <li>Visa Information</li>
+            <li>Your Key Rights</li>
+            <li>Modern Slavery Statement</li>
+            <li>Privacy Policy</li>
+            <li>Cookie Policy</li>
+            <li>Sitemap</li>
+          </ul>
+        </div>
+      </div>
+      <div class="lower-footer grid-col-5">
+        <h2>Travel Aware</h2>
+        <p class="span-2">
+          TRAVEL AWARE – PREPARING FOR SAFE AND HEALTHY TRAVEL ABROAD The
+          Foreign, Commonwealth & Development Office (FCDO) provide the latest
+          travel advice by country including safety and security, entry
+          requirements, travel warnings and health. For the latest FCDO advice
+          please refer to travelaware.campaign.gov.uk
+        </p>
+        <p class="span-2">
+          Current travel health information can be found by visiting
+          travelhealthpro.org.uk/ a resource set up by the Department of Health.
+          The advice can change on all sites so please check regularly for
+          updates.
+        </p>
+      </div>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,70 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.container-between {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container-8 {
+  gap: 8px;
+}
+.container-12 {
+  gap: 12px;
+}
+.container-32 {
+  gap: 32px;
+}
+.container-48 {
+  gap: 48px;
+}
+.center {
+  align-items: center;
+  justify-content: center;
+}
+.center-auto {
+  margin: auto;
+}
+
+.grid-col-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+.grid-col-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+.grid-col-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+.grid-col-5 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+}
+.flex-row-1 {
+  display: flex;
+  gap: 1rem;
+}
+.span-2 {
+  grid-column: span 2;
+}
+.self-end {
+  place-self: end;
+}
+.self-start {
+  place-self: start;
+}
+.center-vr {
+  align-items: center;
+}
+.padding-x-5 {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
