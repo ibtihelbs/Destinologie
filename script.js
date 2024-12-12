@@ -1,5 +1,5 @@
 const h3 = document.querySelectorAll("footer h3");
-const ul = document.querySelectorAll("footer ul.container-8");
+const ul = document.querySelectorAll("footer ul.u__gap-8");
 h3.forEach((v, i) => {
   v.addEventListener("click", () => {
     console.log(ul);

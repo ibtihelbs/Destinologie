@@ -1,0 +1,12 @@
+@media (max-width: 500px) {
+  .upper-footer {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .upper-footer ul {
+    display: none;
+  }
+  .show {
+    display: grid;
+  }
+}
