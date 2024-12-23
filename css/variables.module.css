@@ -34,9 +34,9 @@
   --spacing-36: 36px;
   --spacing-48: 48px;
   /* Font size */
-  --font-h1: 56px;
-  --font-h2: 32px;
-  --font-h3: 28px;
+  --font-h1: clamp(36px, 10vw, 64px);
+  --font-h2: clamp(30px, 8vw, 48px);
+  --font-h3: clamp(24px, 6vw, 36px);
   --text-main: 16px;
   --text-m: 14px;
   --text-xs: 12px;

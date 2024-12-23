@@ -1,5 +1,6 @@
 img {
   max-width: 100%;
+  max-height: 100%;
 }
 a {
   color: inherit;
@@ -7,7 +8,7 @@ a {
   font-weight: bolder;
 }
 
-button,
+button:not(.c__nav-toggle),
 .c__view-details {
   border: none;
   border-radius: var(--border-radius);
@@ -32,6 +33,15 @@ header {
   padding: 1rem 2rem;
   border-radius: var(--border-radius);
 }
+.c__nav-toggle {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
 .c__nav-wrap {
   display: flex;
   justify-content: space-between;
@@ -39,12 +49,12 @@ header {
 }
 .c__nav-wrap nav {
   display: flex;
-  u__gap: 1rem;
+  gap: 1rem;
   align-items: center;
 }
 .c__sub-nav {
   display: flex;
-  u__gap: 2rem;
+  gap: 2rem;
   justify-content: center;
 }
 section {
@@ -144,7 +154,9 @@ section {
 .more-text {
   display: none; /* Hide additional text by default */
 }
-
+.c__card {
+  padding: 1rem;
+}
 .c__card-hotel img {
   width: 100%;
   height: 100%;
@@ -156,6 +168,12 @@ section {
   border-radius: var(--border-radius);
   padding: 1.5rem;
 }
+.c__slider .u__grid-col-3 {
+  display: flex;
+  gap: 1rem;
+  scroll-snap-type: x mandatory;
+}
+
 footer {
   gap: 32px;
 }
@@ -173,4 +191,7 @@ footer ul {
 .c__opinion > div {
   max-width: 800px;
   font-weight: bold;
+}
+#newsletter > div {
+  max-width: 500px; /* Limit the maximum width for better readability */
 }

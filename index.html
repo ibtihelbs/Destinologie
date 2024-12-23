@@ -11,10 +11,13 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="header">
+    <header>
       <div class="c__nav-wrap">
         <img src="./assets/images/logo/Black_D_Logo.png" alt="logo" />
-        <nav class="nav">
+        <button class="c__nav-toggle" aria-label="Toggle Navigation">
+          <img src="./assets/images/icons/icons8-menu.svg" alt="menu" />
+        </button>
+        <nav class="c__nav">
           <a href="#home">Home</a>
           <a href="#destinations">Destinations</a>
           <a href="#hotels">Hotels</a>
@@ -24,8 +27,8 @@
     </header>
 
     <main class="u__container u__gap-48">
-      <section class="c__hero c__hero-home u__container center">
-        <div class="u__container u__gap-24">
+      <section class="c__hero c__hero-home u__container u__center">
+        <div class="u__container u__gap-24 u__padding-x-5">
           <h1>Experience True <span>Luxury</span></h1>
           <p>
             Explore the world's most enchanting destinations and discover
@@ -37,7 +40,7 @@
       </section>
 
       <section
-        class="section u__container center destinations"
+        class="section u__container u__gap-24 u__center destinations"
         id="destinations"
       >
         <h1 class="u__u__center-text">Featured Destinations</h1>
@@ -47,38 +50,56 @@
           destination provides a distinct tapestry of experiences just waiting
           to be discovered.
         </p>
-        <div class="u__grid-col-3">
-          <div class="c__card">
-            <img src="./assets/images/destination/dubai.jpg" alt="Dubai" />
-            <h3>Dubai</h3>
-            <p>A city of dreams and wonders.</p>
-          </div>
-          <div class="c__card">
-            <img
-              src="./assets/images/destination/maldives.jpg"
-              alt="Maldives"
-            />
-            <h3>Maldives</h3>
-            <p>Paradise on Earth.</p>
-          </div>
-          <div class="c__card">
-            <img src="./assets/images/destination/paris.jpg" alt="Paris" />
-            <h3>Paris</h3>
-            <p>The City of Lights and Romance.</p>
-          </div>
-          <div class="c__card">
-            <img src="./assets/images/destination/tokyo.jpg" alt="Tokyo" />
-            <h3>Tokyo</h3>
-            <p>A vibrant fusion of tradition and modernity.</p>
-          </div>
-          <div class="c__card">
-            <img src="./assets/images/destination/newyork.jpg" alt="New York" />
-            <h3>New York</h3>
-            <p>The city that never sleeps.</p>
+        <div class="c__slider">
+          <div class="u__grid-col-3">
+            <div class="c__card">
+              <div class="img-wrapper">
+                <img src="./assets/images/destination/dubai.jpg" alt="Dubai" />
+              </div>
+              <h3>Dubai</h3>
+              <p>A city of dreams and wonders.</p>
+            </div>
+            <div class="c__card">
+              <div class="img-wrapper">
+                <img
+                  src="./assets/images/destination/maldives.jpg"
+                  alt="Maldives"
+                />
+              </div>
+              <h3>Maldives</h3>
+              <p>Paradise on Earth.</p>
+            </div>
+            <div class="c__card">
+              <div class="img-wrapper">
+                <img src="./assets/images/destination/paris.jpg" alt="Paris" />
+              </div>
+              <h3>Paris</h3>
+              <p>The City of Lights and Romance.</p>
+            </div>
+            <div class="c__card">
+              <div class="img-wrapper">
+                <img src="./assets/images/destination/tokyo.jpg" alt="Tokyo" />
+              </div>
+              <h3>Tokyo</h3>
+              <p>A vibrant fusion of tradition and modernity.</p>
+            </div>
+            <div class="c__card">
+              <div class="img-wrapper">
+                <img
+                  src="./assets/images/destination/newyork.jpg"
+                  alt="New York"
+                />
+              </div>
+              <h3>New York</h3>
+              <p>The city that never sleeps.</p>
+            </div>
           </div>
         </div>
       </section>
-      <section class="section hotels u__container center" id="popular-hotels">
+      <section
+        class="section hotels u__container u__gap-24 u__center"
+        id="popular-hotels"
+      >
         <h2 class="u__u__center-text">Popular Hotels</h2>
         <p class="u__u__center-text">
           Explore our exclusive selection of unrivalled accommodations to
@@ -137,7 +158,7 @@
       </section>
 
       <section
-        class="section hotels u__container center"
+        class="section hotels u__container u__gap-24 u__center"
         id="most-loved-hotels"
       >
         <h2 class="u__u__center-text">Most Loved Hotels</h2>

@@ -12,7 +12,6 @@ h3 {
 h1 {
   font-size: var(--font-h1); /* Set H1 font size */
   line-height: calc(var(--font-h1) + 12px); /* Adjust line height dynamically */
-  max-width: 500px; /* Limit the maximum width for better readability */
 }
 
 /* Specific styles for H2 */
