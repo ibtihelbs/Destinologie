@@ -5,13 +5,15 @@ h3 {
   font-family: var(
     --headline-font
   ); /* Use the headline font for all headings */
-  width: 100%; /* Ensure headings take full width */
+  font-weight: normal;
+  transform: scaleY(1.2);
 }
 
 /* Specific styles for H1 */
 h1 {
+  max-width: 50%;
   font-size: var(--font-h1); /* Set H1 font size */
-  line-height: calc(var(--font-h1) + 12px); /* Adjust line height dynamically */
+  line-height: calc(var(--font-h1) + 8px); /* Adjust line height dynamically */
 }
 
 /* Specific styles for H2 */

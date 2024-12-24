@@ -22,7 +22,6 @@ const totalSlides = gridContainer.children.length;
 
 const updateSlideWidth = () => {
   const gap = parseInt(getComputedStyle(gridContainer).columnGap || 0, 10);
-  console.log(gap);
   slideWidth = gridContainer.firstElementChild.offsetWidth + gap;
 };
 updateSlideWidth();

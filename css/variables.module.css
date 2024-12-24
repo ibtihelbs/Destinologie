@@ -1,6 +1,10 @@
 @font-face {
-  font-family: "The Seasons";
-  src: url(../assets/fonts/TheSeasons/fontspring-demo-theseasons-reg-webfont.woff2);
+  font-family: "laviossamedium";
+  src: url("../assets/fonts/laviossa/laviossa-medium-webfont.woff2")
+      format("woff2"),
+    url("../assets/fonts/laviossa/laviossa-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
   font-family: "Poppins";
@@ -25,7 +29,7 @@
   --75-sand: #dac2a9;
   --75-almond: #f8f4f1;
   /* Fonts */
-  --headline-font: "The Seasons", serif;
+  --headline-font: "laviossamedium", serif;
   --body-font: "Poppins", sans-serif;
 
   /* Spacing */
